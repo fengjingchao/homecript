@@ -1,11 +1,7 @@
 #!/bin/bash -e
 
-ag_args=""
-
-case $1 in
-  "go") ag_args="--go --ignore \"Godeps*\"" ;;
-  *) ag_args="--$1" ;;
-esac
+lang="$1"
 
 shift
-ag $ar_args $@
+
+ag --$lang $@
