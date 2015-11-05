@@ -1,5 +1,8 @@
 # Copy this file to ~/.agignore
 # Put the following alias to shell rc file (e.g. ".zshrc"):
 #   alias ag='ag --path-to-agignore=~/.agignore'
+
+# Go related
 Godeps/
 vendor/
+third_party/
